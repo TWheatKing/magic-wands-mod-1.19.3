@@ -1,4 +1,6 @@
 {
   "item.magicwandsmod.magical_wood": "Magical Wood",
-  "item.magicwandsmod.ancient_magical_wood": "Ancient Magical Wood"
+  "item.magicwandsmod.ancient_magical_wood": "Ancient Magical Wood",
+
+  "itemgroup.magical_wood": "Magical Wood Items Group"
 }
