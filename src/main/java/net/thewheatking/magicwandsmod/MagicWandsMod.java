@@ -2,6 +2,7 @@ package net.thewheatking.magicwandsmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.thewheatking.magicwandsmod.item.ModItemGroup;
 import net.thewheatking.magicwandsmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +13,7 @@ public class MagicWandsMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }

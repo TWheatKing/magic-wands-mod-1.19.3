@@ -13,6 +13,8 @@ import net.thewheatking.magicwandsmod.MagicWandsMod;
 public class ModItems {
     public static final Item MAGICAL_WOOD = registerItem("magical_wood",
             new Item(new FabricItemSettings()));
+    public static final Item ANCIENT_MAGICAL_WOOD = registerItem("ancient_magical_wood",
+            new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MagicWandsMod.MOD_ID, name), item);
@@ -20,6 +22,10 @@ public class ModItems {
 
     public static void  addItemsToItemGroup() {
         addToItemGroup(ItemGroups.INGREDIENTS, MAGICAL_WOOD);
+        addToItemGroup(ItemGroups.INGREDIENTS, ANCIENT_MAGICAL_WOOD);
+
+        addToItemGroup(ModItemGroup.MAGICAL_WOOD, MAGICAL_WOOD);
+        addToItemGroup(ModItemGroup.MAGICAL_WOOD, ANCIENT_MAGICAL_WOOD);
     }
 
     public static void addToItemGroup(ItemGroup group, Item item) {
