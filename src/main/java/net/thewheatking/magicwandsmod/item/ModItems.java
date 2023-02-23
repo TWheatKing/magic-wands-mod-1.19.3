@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 import net.thewheatking.magicwandsmod.MagicWandsMod;
 
 public class ModItems {
-    public static final Item MAGICAL_WOOD = registerItem("magical wood",
+    public static final Item MAGICAL_WOOD = registerItem("magical_wood",
             new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
