@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "magicwandsmod:magical_wood_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "magicwandsmod:magical_wood"
+  }
+}

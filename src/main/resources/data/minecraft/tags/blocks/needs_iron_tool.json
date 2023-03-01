@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-
+    "magicwandsmod:amethyst_ore",
+    "magicwandsmod:deepslate_amethyst_ore",
+    "magicwandsmod:magical_wood_block"
   ]
 }

@@ -17,6 +17,10 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item DARK_MAGICAL_WOOD = registerItem("dark_magical_wood",
             new Item(new FabricItemSettings()));
+    public static final Item AMETHYST = registerItem("amethyst",
+            new Item(new FabricItemSettings()));
+    public static final Item RAW_AMETHYST = registerItem("raw_amethyst",
+            new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MagicWandsMod.MOD_ID, name), item);
@@ -30,6 +34,13 @@ public class ModItems {
         addToItemGroup(ModItemGroup.MAGICAL_WOOD, MAGICAL_WOOD);
         addToItemGroup(ModItemGroup.MAGICAL_WOOD, ANCIENT_MAGICAL_WOOD);
         addToItemGroup(ModItemGroup.MAGICAL_WOOD, DARK_MAGICAL_WOOD);
+
+        addToItemGroup(ModItemGroup.MAGIC_WANDS_MOD, MAGICAL_WOOD);
+        addToItemGroup(ModItemGroup.MAGIC_WANDS_MOD, ANCIENT_MAGICAL_WOOD);
+        addToItemGroup(ModItemGroup.MAGIC_WANDS_MOD, DARK_MAGICAL_WOOD);
+        addToItemGroup(ModItemGroup.MAGIC_WANDS_MOD, AMETHYST);
+        addToItemGroup(ModItemGroup.MAGIC_WANDS_MOD, RAW_AMETHYST);
+
     }
 
     public static void addToItemGroup(ItemGroup group, Item item) {

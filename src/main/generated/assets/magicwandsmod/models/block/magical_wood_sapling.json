@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "magicwandsmod:block/magical_wood_sapling"
+  }
+}

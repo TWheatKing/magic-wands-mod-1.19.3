@@ -1,8 +1,21 @@
 {
-  "item.magicwandsmod.magical_wood": "Magical Wood",
-  "item.magicwandsmod.ancient_magical_wood": "Ancient Magical Wood",
-  "item.magicwandsmod.dark_magical_wood": "Dark Magical Wood",
-  "block.magicwandsmod.magical_wood_block": "Block of Magical Wood",
+  "block.magicwandsmod.magical_wood_block": "Block of Magical Wood Fragment",
+  "block.magicwandsmod.magical_wood_leaves": "Magical Wood Leaves",
+  "block.magicwandsmod.magical_wood_log": "Magical Wood Log",
+  "block.magicwandsmod.magical_wood_planks": "Magical Wood Planks",
+  "block.magicwandsmod.magical_wood_sapling": "Magical Tree Sapling",
+  "block.magicwandsmod.magical_wood_wood": "Magical Wood",
+  "block.magicwandsmod.stripped_magical_wood_log": "Stripped Magical Wood Log",
+  "block.magicwandsmod.stripped_magical_wood_wood": "Stripped Magical Wood",
+  "item.magicwandsmod.ancient_magical_wood": "Ancient Magical Wood Fragment",
+  "item.magicwandsmod.dark_magical_wood": "Dark Magical Wood Fragment",
+  "item.magicwandsmod.magical_wood": "Magical Wood Fragment",
+  "block.magicwandsmod.amethyst_ore": "Amethyst Ore",
+  "block.magicwandsmod.deepslate_amethyst_ore": "Deepslate Amethyst Ore",
+  "item.magicwandsmod.amethyst": "Amethyst",
+  "item.magicwandsmod.raw_amethyst": "Raw Amethyst",
 
+
+  "itemgroup.magic_wands_mod": "Magic Wands Mod",
   "itemgroup.magical_wood": "Magical Wood"
 }

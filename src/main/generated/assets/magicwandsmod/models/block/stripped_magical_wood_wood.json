@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "magicwandsmod:block/stripped_magical_wood_log",
+    "side": "magicwandsmod:block/stripped_magical_wood_log"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "magicwandsmod:item/deepslate_amethyst_ore"
+  }
+}

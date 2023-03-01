@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "magicwandsmod:item/stripped_magical_wood_wood"
+  }
+}
