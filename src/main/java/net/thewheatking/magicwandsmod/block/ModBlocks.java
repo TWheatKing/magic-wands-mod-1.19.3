@@ -40,7 +40,7 @@ public class ModBlocks {
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(4.0f).requiresTool()), ModItemGroup.MAGIC_WANDS_MOD);
 
     public static final Block MAGICAL_WOOD_SAPLING = registerBlock("magical_wood_sapling",
-            new SaplingBlock(null, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()), ModItemGroup.MAGIC_WANDS_MOD);
+            new SaplingBlock(FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4.0f).requiresTool()), ModItemGroup.MAGIC_WANDS_MOD);
 
 
 
